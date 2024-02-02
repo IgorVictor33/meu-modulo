@@ -3,7 +3,9 @@ from pessoa import calculo_idade
 
 
 nome = input('cumé c chama?')
-ano = input('qual o ano do seu nascimento?')
+dia = int(input('que dia ocê nasceu? '))                
+mes = int(input('que mes voce nasceu? '))
+ano = int(input('qual o ano do seu nascimento? '))
 
 idade = calculo_idade(ano)
 
